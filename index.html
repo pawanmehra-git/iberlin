@@ -47,6 +47,7 @@
                 <a href="#products" class="nav-link">Products</a>
                 <a href="#about" class="nav-link">About</a>
                 <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#partners" class="nav-link">Partners</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
             <div class="nav-toggle" id="nav-toggle">
@@ -119,48 +120,71 @@
     <section id="reviews" class="reviews">
         <div class="container">
             <h2 class="section-title">Customer Reviews</h2>
-            <div class="reviews-container">
-                <div class="reviews-display" id="reviews-display">
-                    <!-- Reviews will be dynamically loaded here -->
+            <div class="reviews-display" id="reviews-display">
+                <!-- Reviews will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners" class="partners">
+        <div class="container">
+            <h2 class="section-title">Our Partners</h2>
+            <p class="section-subtitle">We're proud to work with leading companies in the food industry</p>
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/200x100/ffffff/333333?text=Restaurant+Chain" alt="Restaurant Chain Partner">
+                    </div>
+                    <div class="partner-info">
+                        <h3>Premium Restaurant Chain</h3>
+                        <p>Leading restaurant chain with 50+ locations across India</p>
+                    </div>
                 </div>
-                <div class="review-form-container">
-                    <h3>Share Your Experience</h3>
-                    <form id="review-form" class="review-form">
-                        <div class="form-group">
-                            <label for="reviewer-name">Name *</label>
-                            <input type="text" id="reviewer-name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="reviewer-email">Email *</label>
-                            <input type="email" id="reviewer-email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="product-review">Product</label>
-                            <select id="product-review" name="product">
-                                <option value="">Select a product</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="rating">Rating *</label>
-                            <div class="rating-input">
-                                <input type="radio" id="star5" name="rating" value="5">
-                                <label for="star5"><i class="fas fa-star"></i></label>
-                                <input type="radio" id="star4" name="rating" value="4">
-                                <label for="star4"><i class="fas fa-star"></i></label>
-                                <input type="radio" id="star3" name="rating" value="3">
-                                <label for="star3"><i class="fas fa-star"></i></label>
-                                <input type="radio" id="star2" name="rating" value="2">
-                                <label for="star2"><i class="fas fa-star"></i></label>
-                                <input type="radio" id="star1" name="rating" value="1">
-                                <label for="star1"><i class="fas fa-star"></i></label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="review-text">Your Review *</label>
-                            <textarea id="review-text" name="review" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit Review</button>
-                    </form>
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/200x100/ffffff/333333?text=Food+Distributor" alt="Food Distributor Partner">
+                    </div>
+                    <div class="partner-info">
+                        <h3>National Food Distributor</h3>
+                        <p>Trusted distributor serving hotels and restaurants nationwide</p>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/200x100/ffffff/333333?text=Chef+Collaboration" alt="Chef Collaboration Partner">
+                    </div>
+                    <div class="partner-info">
+                        <h3>Celebrity Chef Collaboration</h3>
+                        <p>Working with renowned chefs to develop authentic recipes</p>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/200x100/ffffff/333333?text=Hotel+Group" alt="Hotel Group Partner">
+                    </div>
+                    <div class="partner-info">
+                        <h3>Luxury Hotel Group</h3>
+                        <p>Premium hotel chain featuring our products in their restaurants</p>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/200x100/ffffff/333333?text=Food+Service" alt="Food Service Partner">
+                    </div>
+                    <div class="partner-info">
+                        <h3>Corporate Food Service</h3>
+                        <p>Providing quality products to corporate cafeterias and events</p>
+                    </div>
+                </div>
+                <div class="partner-card">
+                    <div class="partner-logo">
+                        <img src="https://via.placeholder.com/200x100/ffffff/333333?text=Retail+Chain" alt="Retail Chain Partner">
+                    </div>
+                    <div class="partner-info">
+                        <h3>Gourmet Retail Chain</h3>
+                        <p>Specialty food stores carrying our premium product line</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -246,6 +270,7 @@
                         <li><a href="#products">Products</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#partners">Partners</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>

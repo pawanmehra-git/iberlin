@@ -153,7 +153,6 @@ function setupNavigation() {
 function loadProducts() {
     products = [...sampleProducts];
     displayProducts();
-    populateProductSelect();
 }
 
 // Display products
@@ -183,12 +182,6 @@ function displayProducts() {
     `).join('');
 }
 
-// Populate product select for reviews
-function populateProductSelect() {
-    const productSelect = document.getElementById('product-review');
-    productSelect.innerHTML = '<option value="">Select a product</option>' +
-        products.map(product => `<option value="${product.name}">${product.name}</option>`).join('');
-}
 
 // Open product modal
 function openProductModal(productId) {
@@ -278,47 +271,7 @@ function displayReviews() {
 
 // Setup forms
 function setupForms() {
-    setupReviewForm();
     setupContactForm();
-}
-
-// Setup review form
-function setupReviewForm() {
-    const reviewForm = document.getElementById('review-form');
-    
-    reviewForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        const formData = new FormData(this);
-        const reviewData = {
-            id: Date.now(),
-            name: formData.get('name'),
-            email: formData.get('email'),
-            product: formData.get('product'),
-            rating: parseInt(formData.get('rating')),
-            review: formData.get('review'),
-            date: new Date().toISOString().split('T')[0]
-        };
-        
-        // Validate form
-        if (!reviewData.name || !reviewData.email || !reviewData.rating || !reviewData.review) {
-            showMessage('Please fill in all required fields.', 'error');
-            return;
-        }
-        
-        // Add review
-        reviews.unshift(reviewData);
-        displayReviews();
-        
-        // Reset form
-        this.reset();
-        
-        // Show success message
-        showMessage('Thank you for your review!', 'success');
-        
-        // Scroll to reviews
-        document.getElementById('reviews').scrollIntoView({ behavior: 'smooth' });
-    });
 }
 
 // Setup contact form
