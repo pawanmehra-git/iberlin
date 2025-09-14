@@ -513,7 +513,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const images = document.querySelectorAll('img');
     images.forEach(img => {
         img.addEventListener('error', function() {
-            this.src = 'https://via.placeholder.com/400x300?text=Image+Not+Available';
+            this.src = 'images/placeholder.jpg';
         });
     });
 });

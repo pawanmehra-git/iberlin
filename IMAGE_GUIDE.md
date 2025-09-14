@@ -19,7 +19,10 @@ images/
 ├── partner-chef-collaboration.png # Chef Collaboration Partner Logo
 ├── partner-hotel-group.png       # Hotel Group Partner Logo
 ├── partner-food-service.png      # Food Service Partner Logo
-└── partner-retail-chain.png      # Retail Chain Partner Logo
+├── partner-retail-chain.png      # Retail Chain Partner Logo
+├── favicon.ico                   # Website favicon
+├── apple-touch-icon.png          # Apple touch icon
+└── placeholder.jpg               # Error fallback image
 ```
 
 ## 🖼️ Image Specifications
