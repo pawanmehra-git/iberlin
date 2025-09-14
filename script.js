@@ -9,7 +9,7 @@ const sampleProducts = [
         name: "Premium Ramen Noodles",
         description: "Authentic Japanese-style ramen noodles made with premium wheat flour and traditional techniques. Perfect for creating restaurant-quality ramen at home.",
         price: "₹299",
-        image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        image: "images/product-ramen.jpg",
         features: ["Made with premium wheat flour", "No artificial preservatives", "Quick cooking time", "Authentic texture"],
         category: "Noodles",
         inStock: true
@@ -19,7 +19,7 @@ const sampleProducts = [
         name: "Spring Roll Wrappers",
         description: "Delicate and thin spring roll wrappers perfect for making crispy spring rolls. Made with rice flour for authentic Asian taste.",
         price: "₹199",
-        image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        image: "images/product-spring-rolls.jpg",
         features: ["Rice flour based", "Thin and delicate", "Easy to work with", "Crispy when fried"],
         category: "Wrappers",
         inStock: true
@@ -29,7 +29,7 @@ const sampleProducts = [
         name: "Dumpling Wrappers",
         description: "Soft and pliable dumpling wrappers ideal for making potstickers, gyoza, and other Asian dumplings. Perfect thickness for easy folding.",
         price: "₹249",
-        image: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        image: "images/product-dumplings.jpg",
         features: ["Perfect thickness", "Easy to fold", "Soft texture", "Freezer friendly"],
         category: "Wrappers",
         inStock: true
@@ -39,7 +39,7 @@ const sampleProducts = [
         name: "Rice Noodles",
         description: "Traditional rice noodles made from 100% rice flour. Gluten-free and perfect for stir-fries, soups, and salads.",
         price: "₹179",
-        image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        image: "images/product-rice-noodles.jpg",
         features: ["100% rice flour", "Gluten-free", "Quick cooking", "Versatile usage"],
         category: "Noodles",
         inStock: true
@@ -49,7 +49,7 @@ const sampleProducts = [
         name: "Udon Noodles",
         description: "Thick and chewy udon noodles perfect for Japanese hot pots and stir-fries. Made with traditional methods for authentic texture.",
         price: "₹329",
-        image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        image: "images/product-udon.jpg",
         features: ["Thick and chewy", "Traditional method", "Perfect for hot pots", "Authentic texture"],
         category: "Noodles",
         inStock: true
@@ -59,7 +59,7 @@ const sampleProducts = [
         name: "Wonton Wrappers",
         description: "Square wonton wrappers perfect for making wontons and other Chinese dumplings. Thin and delicate for perfect wrapping.",
         price: "₹219",
-        image: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+        image: "images/product-wonton.jpg",
         features: ["Square shape", "Thin and delicate", "Perfect for wontons", "Easy to seal"],
         category: "Wrappers",
         inStock: true

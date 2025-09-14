@@ -307,6 +307,57 @@ body {
     line-height: 1.7;
 }
 
+.intro-text {
+    font-style: italic;
+    color: #e74c3c;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.mission-vision {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.mission, .vision, .values, .empathy, .promise {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 4px solid #e74c3c;
+    margin-bottom: 1.5rem;
+}
+
+.mission h3, .vision h3, .values h3, .empathy h3, .promise h3 {
+    color: #e74c3c;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.mission h3 i, .vision h3 i, .values h3 i, .empathy h3 i, .promise h3 i {
+    font-size: 1.2rem;
+}
+
+.invitation {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.invitation-text {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.6;
+}
+
 .features {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -773,6 +824,23 @@ body {
     .about-content {
         grid-template-columns: 1fr;
         gap: 2rem;
+    }
+
+    .mission-vision {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .mission, .vision, .values, .empathy, .promise {
+        padding: 1.2rem;
+    }
+
+    .invitation {
+        padding: 1.5rem;
+    }
+
+    .invitation-text {
+        font-size: 1.1rem;
     }
 
     .partners-grid {
