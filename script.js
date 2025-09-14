@@ -9,7 +9,7 @@ const sampleProducts = [
         name: "Premium Ramen Noodles",
         description: "Authentic Japanese-style ramen noodles made with premium wheat flour and traditional techniques. Perfect for creating restaurant-quality ramen at home.",
         price: "₹299",
-        image: "images/product-ramen.jpg",
+        image: "images/product-ramen.svg",
         features: ["Made with premium wheat flour", "No artificial preservatives", "Quick cooking time", "Authentic texture"],
         category: "Noodles",
         inStock: true
@@ -19,7 +19,7 @@ const sampleProducts = [
         name: "Spring Roll Wrappers",
         description: "Delicate and thin spring roll wrappers perfect for making crispy spring rolls. Made with rice flour for authentic Asian taste.",
         price: "₹199",
-        image: "images/product-spring-rolls.jpg",
+        image: "images/product-spring-rolls.svg",
         features: ["Rice flour based", "Thin and delicate", "Easy to work with", "Crispy when fried"],
         category: "Wrappers",
         inStock: true
@@ -29,7 +29,7 @@ const sampleProducts = [
         name: "Dumpling Wrappers",
         description: "Soft and pliable dumpling wrappers ideal for making potstickers, gyoza, and other Asian dumplings. Perfect thickness for easy folding.",
         price: "₹249",
-        image: "images/product-dumplings.jpg",
+        image: "images/product-dumplings.svg",
         features: ["Perfect thickness", "Easy to fold", "Soft texture", "Freezer friendly"],
         category: "Wrappers",
         inStock: true
@@ -39,7 +39,7 @@ const sampleProducts = [
         name: "Rice Noodles",
         description: "Traditional rice noodles made from 100% rice flour. Gluten-free and perfect for stir-fries, soups, and salads.",
         price: "₹179",
-        image: "images/product-rice-noodles.jpg",
+        image: "images/product-rice-noodles.svg",
         features: ["100% rice flour", "Gluten-free", "Quick cooking", "Versatile usage"],
         category: "Noodles",
         inStock: true
@@ -49,7 +49,7 @@ const sampleProducts = [
         name: "Udon Noodles",
         description: "Thick and chewy udon noodles perfect for Japanese hot pots and stir-fries. Made with traditional methods for authentic texture.",
         price: "₹329",
-        image: "images/product-udon.jpg",
+        image: "images/product-udon.svg",
         features: ["Thick and chewy", "Traditional method", "Perfect for hot pots", "Authentic texture"],
         category: "Noodles",
         inStock: true
@@ -59,7 +59,7 @@ const sampleProducts = [
         name: "Wonton Wrappers",
         description: "Square wonton wrappers perfect for making wontons and other Chinese dumplings. Thin and delicate for perfect wrapping.",
         price: "₹219",
-        image: "images/product-wonton.jpg",
+        image: "images/product-wonton.svg",
         features: ["Square shape", "Thin and delicate", "Perfect for wontons", "Easy to seal"],
         category: "Wrappers",
         inStock: true
@@ -513,7 +513,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const images = document.querySelectorAll('img');
     images.forEach(img => {
         img.addEventListener('error', function() {
-            this.src = 'images/placeholder.jpg';
+            this.src = 'images/placeholder.svg';
         });
     });
 });

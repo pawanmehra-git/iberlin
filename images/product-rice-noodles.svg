@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="400" fill="url(#bg)"/>
+  <rect x="50" y="50" width="400" height="300" fill="white" stroke="#dee2e6" stroke-width="2" rx="10"/>
+  <text x="250" y="100" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#e74c3c">Rice Noodles</text>
+  <rect x="100" y="150" width="300" height="6" fill="#f4e4bc" rx="3"/>
+  <rect x="100" y="170" width="300" height="6" fill="#f4e4bc" rx="3"/>
+  <rect x="100" y="190" width="300" height="6" fill="#f4e4bc" rx="3"/>
+  <rect x="100" y="210" width="300" height="6" fill="#f4e4bc" rx="3"/>
+  <rect x="100" y="230" width="300" height="6" fill="#f4e4bc" rx="3"/>
+  <text x="250" y="280" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#e74c3c">₹179</text>
+  <text x="250" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">100% Rice Flour • Gluten-Free</text>
+</svg>
