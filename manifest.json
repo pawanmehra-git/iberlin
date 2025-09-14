@@ -1,0 +1,27 @@
+{
+    "name": "iBerlin - Premium Asian Noodles & Wrappers",
+    "short_name": "iBerlin",
+    "description": "Premium Asian noodles and wrappers for authentic culinary experiences",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#e74c3c",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "https://via.placeholder.com/192x192/e74c3c/ffffff?text=iB",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://via.placeholder.com/512x512/e74c3c/ffffff?text=iB",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["food", "shopping", "lifestyle"],
+    "lang": "en",
+    "dir": "ltr"
+}
